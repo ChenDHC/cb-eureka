@@ -17,18 +17,18 @@ public class ProviderController {
     public String hello(){
         List<String> services = discoveryClient.getServices();
         for(String s : services){
-            System.out.println(s);
+            System.out.println("hello: "+s);
         }
-        return "hello spring cloud!";
+        return "hello";
     }
 
     @RequestMapping(value = "/nice")
     public String nice(){
         List<String> services = discoveryClient.getServices();
         for(String s : services){
-            System.out.println("gogogo" + s);
+            System.out.println("nice: " + s);
         }
-        return "nice to meet you!";
+        return "nice";
     }
 
 }
