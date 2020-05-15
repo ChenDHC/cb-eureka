@@ -29,6 +29,8 @@
 		</dependencies>
 	</dependencyManagement>
 	<modules>
+		<module>eureka-center</module>
+		<module>eureka-client</module>
 		<module>eureka-server</module>
 	</modules>
 </project>

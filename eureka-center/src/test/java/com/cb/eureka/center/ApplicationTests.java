@@ -1,4 +1,4 @@
-package com.cb.eureka.server;
+package com.cb.eureka.center;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
