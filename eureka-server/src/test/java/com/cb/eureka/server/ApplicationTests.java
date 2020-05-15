@@ -1,13 +1,7 @@
-package com.cb.eureka;
+package com.cb.eureka.server;
 
-import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class ApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
-
 }
