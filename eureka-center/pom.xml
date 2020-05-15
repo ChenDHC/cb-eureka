@@ -7,11 +7,9 @@
 		<artifactId>cb-eureka</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.cb.eureka.client</groupId>
+	<groupId>com.cb.eureka.center</groupId>
 	<artifactId>eureka-center</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring</name>
-	<description>Demo project for Spring Boot</description>
 
 	<dependencies>
 		<dependency>
